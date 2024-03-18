@@ -1,31 +1,22 @@
 public class MyPI {
-
   private static String PI;  // millions of digits of PI
 
   private static long NUMPI; // number of digits of PI
-
-
-
-
+  
   public static String getPI() {
     return PI;
   }
-
-
-
+  
   public static void setPI(String in_) {
     PI = new String(in_);
     NUMPI = in_.length();
   }
-
-
+  
   public static long getNUMPI() {
 
     return NUMPI;
   }
-
-
-
+  
   public static String [] getSubs(String s_) {
     s_ = s_.replace("/", "");
     String [] us = new String[s_.length()];
@@ -34,8 +25,6 @@ public class MyPI {
     }
     return us;
   }
-
-
 
   public static String findinPI(String in_) {
     String out="";
